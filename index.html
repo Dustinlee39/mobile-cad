@@ -4,180 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprehensive Mobile CAD System Design</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
 </head>
 <body>
     <header>
         <h1>Comprehensive Mobile CAD System Design</h1>
+        <button id="toggle-mode">Toggle Dark Mode</button>
     </header>
-    
+
     <main>
-        <section id="ui-design">
-            <h2>User Interface (UI) Design</h2>
+        <section>
+            <h2>Introduction</h2>
             <article>
-                <h3>Intuitive Layout</h3>
-                <p><strong>Advantages:</strong> A clean and modern interface reduces the learning curve and makes navigation intuitive.</p>
-                <p><strong>Disadvantages:</strong> Essential tools may be hidden, frustrating users who prefer quick access.</p>
+                <h3>What is CAD?</h3>
+                <p>Computer-Aided Design (CAD) is the use of computer technology to aid in the design and drafting of products.</p>
             </article>
             <article>
-                <h3>Touch Gesture Support</h3>
-                <p><strong>Advantages:</strong> Enhances user experience with natural interactions like pinch-to-zoom and drag-and-drop.</p>
-                <p><strong>Disadvantages:</strong> Complex designs can be tricky, and unintentional gestures may occur.</p>
-            </article>
-            <article>
-                <h3>Customizable Toolbars</h3>
-                <p><strong>Advantages:</strong> Users can streamline their workspace according to their needs.</p>
-                <p><strong>Disadvantages:</strong> Too many options may overwhelm beginners.</p>
-            </article>
-            <article>
-                <h3>Dark and Light Modes</h3>
-                <p><strong>Advantages:</strong> Improves usability in different lighting conditions and reduces eye strain.</p>
-                <p><strong>Disadvantages:</strong> Ensuring consistent functionality in both modes can be challenging.</p>
+                <h3>Importance of CAD</h3>
+                <p>CAD allows for precision and efficiency in design processes, enabling better productivity and creativity.</p>
             </article>
         </section>
 
-        <section id="core-features">
-            <h2>Core Features</h2>
+        <section>
+            <h2>Features of the System</h2>
             <article>
-                <h3>2D Drawing Tools</h3>
-                <p><strong>Advantages:</strong> A comprehensive range of shape creation tools enhances creativity and precision.</p>
-                <p><strong>Disadvantages:</strong> Performance may be limited by mobile device capabilities.</p>
+                <h3>User-Friendly Interface</h3>
+                <p>The system is designed with a simple and intuitive interface for all users.</p>
             </article>
             <article>
-                <h3>3D Modeling Tools</h3>
-                <p><strong>Advantages:</strong> Supports complex shape creation and modification.</p>
-                <p><strong>Disadvantages:</strong> High processing demands may affect performance on mobile devices.</p>
-            </article>
-            <article>
-                <h3>Layer Management</h3>
-                <p><strong>Advantages:</strong> Helps keep designs organized and manageable.</p>
-                <p><strong>Disadvantages:</strong> Managing layers on smaller screens can be cumbersome.</p>
-            </article>
-            <article>
-                <h3>Dimensioning and Annotation Tools</h3>
-                <p><strong>Advantages:</strong> Ensures precise and clear designs.</p>
-                <p><strong>Disadvantages:</strong> Inputting dimensions may be less precise on mobile.</p>
-            </article>
-            <article>
-                <h3>Pattern and Array Tools</h3>
-                <p><strong>Advantages:</strong> Simplifies repetitive tasks and increases productivity.</p>
-                <p><strong>Disadvantages:</strong> Complex patterns may slow performance on less powerful devices.</p>
-            </article>
-            <article>
-                <h3>Component Libraries</h3>
-                <p><strong>Advantages:</strong> Allows quick access to frequently used symbols.</p>
-                <p><strong>Disadvantages:</strong> Syncing custom libraries may be challenging in offline situations.</p>
-            </article>
-            <article>
-                <h3>Rendering and Visualization</h3>
-                <p><strong>Advantages:</strong> Real-time rendering enhances visualization capabilities.</p>
-                <p><strong>Disadvantages:</strong> High-quality rendering may drain battery life quickly.</p>
-            </article>
-            <article>
-                <h3>File Management</h3>
-                <p><strong>Advantages:</strong> Cloud integration supports seamless access and collaboration.</p>
-                <p><strong>Disadvantages:</strong> Internet reliance may be problematic in low-connectivity areas.</p>
-            </article>
-            <article>
-                <h3>Collaboration Tools</h3>
-                <p><strong>Advantages:</strong> Enables real-time teamwork with version control.</p>
-                <p><strong>Disadvantages:</strong> Conflicts may arise during simultaneous edits.</p>
-            </article>
-            <article>
-                <h3>Measurement and Analysis Tools</h3>
-                <p><strong>Advantages:</strong> Enhances practicality for engineering applications.</p>
-                <p><strong>Disadvantages:</strong> Large models may cause performance issues.</p>
-            </article>
-            <article>
-                <h3>Cloud Integration</h3>
-                <p><strong>Advantages:</strong> Supports seamless workflows and backups.</p>
-                <p><strong>Disadvantages:</strong> Loss of access to files in offline mode.</p>
-            </article>
-            <article>
-                <h3>Offline Mode</h3>
-                <p><strong>Advantages:</strong> Allows work without internet access.</p>
-                <p><strong>Disadvantages:</strong> Syncing may take time when reconnected.</p>
-            </article>
-            <article>
-                <h3>Custom Shortcuts and Hotkeys</h3>
-                <p><strong>Advantages:</strong> Configurable shortcuts enhance efficiency.</p>
-                <p><strong>Disadvantages:</strong> Creating a mobile-friendly hotkey system is challenging.</p>
+                <h3>Mobile Compatibility</h3>
+                <p>Our CAD system works seamlessly on mobile devices, allowing for design on-the-go.</p>
             </article>
         </section>
 
-        <section id="performance-optimization">
-            <h2>Performance Optimization</h2>
-            <article>
-                <h3>Performance Strategies</h3>
-                <p>Utilizing GPU acceleration and efficient memory usage while managing load balancing is key to a responsive experience.</p>
-            </article>
-            <article>
-                <h3>Challenges</h3>
-                <p>Balancing power consumption and performance is crucial for usability without draining battery life.</p>
-            </article>
-        </section>
-
-        <section id="accessibility-features">
-            <h2>Accessibility Features</h2>
-            <article>
-                <h3>Voice Commands</h3>
-                <p>Allows hands-free control for users with limited mobility.</p>
-            </article>
-            <article>
-                <h3>Screen Magnification and Adjustable Scaling</h3>
-                <p>Ensures effective use for visually impaired users.</p>
-            </article>
-            <article>
-                <h3>Challenges</h3>
-                <p>Implementing accessible features without complicating the UI requires careful consideration.</p>
-            </article>
-        </section>
-
-        <section id="security-measures">
-            <h2>Security Measures</h2>
-            <article>
-                <h3>User Authentication</h3>
-                <p>Multi-factor authentication protects sensitive designs.</p>
-            </article>
-            <article>
-                <h3>Encryption</h3>
-                <p>Encrypting data ensures protection against unauthorized access.</p>
-            </article>
-            <article>
-                <h3>Challenges</h3>
-                <p>Maintaining performance while ensuring security can lead to trade-offs.</p>
-            </article>
-        </section>
-
-        <section id="use-cases">
-            <h2>Use Cases</h2>
-            <article>
-                <h3>Architecture</h3>
-                <p>Users can create and adjust floor plans and 3D models on-site.</p>
-            </article>
-            <article>
-                <h3>Engineering</h3>
-                <p>Mechanical engineers can design and simulate parts and assemblies.</p>
-            </article>
-            <article>
-                <h3>Product Design</h3>
-                <p>Designers can prototype and visualize products in 3D.</p>
-            </article>
-            <article>
-                <h3>Education</h3>
-                <p>The system can teach design principles interactively for students.</p>
-            </article>
-            <article>
-                <h3>Challenges</h3>
-                <p>Different industries may have specific needs, complicating a one-size-fits-all approach.</p>
-            </article>
+        <section>
+            <h2>Contact Information</h2>
+            <p>If you have any questions, please reach out to us via email at <strong>support@cad-system.com</strong>.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Comprehensive Mobile CAD System Design. All rights reserved.</p>
+        <p>&copy; 2024 Comprehensive Mobile CAD System. All rights reserved.</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
 </body>
 </html>
